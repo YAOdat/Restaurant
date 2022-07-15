@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Monoton&family=Roboto:wght@100&display=swap');
+
+
+
+#top{
+    background-color: #ffc000;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-family: 'Kaushan Script', cursive;
+}
+
+
+form{
+    font-size: 2.3rem;
+    
+}
+
+
+.form-text{
+    font-size: 30px;
+    font-family: 'Kaushan Script', cursive;
+}
+.form-input{
+    width: 400px;
+    height: 40px;
+    border: 2px solid #272441;
+    border-radius: 1rem;
+}
+
+#main-button{
+    width: 400px;
+    height: 40px;
+    border: 2px solid #272441;
+    border-radius: 1rem;
+    background-color: #ffc000;
+    font-size: 25px;
+    
+
+}
+
+
+#main-table{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 35px;
+    border-color: #272441;
+    background-color: #ffc000;
+    border-radius: 0.2rem;
+    position: relative;
+    left: 85rem;
+    bottom: 33rem;
+    text-align: center;
+}
