@@ -9,6 +9,8 @@
     height: 100%;
     width: 100%;
     font-family: 'Kaushan Script', cursive;
+    font-size: 2.3rem;
+
 }
 
 
@@ -51,4 +53,18 @@ form{
     left: 85rem;
     bottom: 33rem;
     text-align: center;
+}
+
+
+
+.navigation{
+    position: relative;
+    left: 300px;
+    text-decoration: none;
+    display: flex;
+    flex: 0.09;
+    color: black;
+    border: #000000 solid 5px;
+    padding: 1%;
+    border-radius: 12px;
 }
