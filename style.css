@@ -50,11 +50,22 @@ form{
     background-color: #ffc000;
     border-radius: 0.2rem;
     position: relative;
-    left: 85rem;
+    left: 300rem;
     bottom: 33rem;
     text-align: center;
 }
 
+
+#new-table{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 35px;
+    border-color: #272441;
+    background-color: #ffc000;
+    border-radius: 0.2rem;
+    position: relative;
+
+    text-align: center;
+}
 
 
 .navigation{

@@ -16,9 +16,6 @@ Type.prototype.foodID = function () {
 }
 
 
-let submit = document.getElementById('form');
-submit.addEventListener('submit',handleSubmit);
-
 
 
 
@@ -70,24 +67,3 @@ function saveData(){
     localStorage.setItem("Types", stringData)
 }
 
-function getData(){
-    let retrivedData = localStorage.getItem("Types");
-    console.log(retrivedData);
-    let parsedData = JSON.parse(retrivedData);
-    console.log(parsedData);
-    console.log(typeof parsedData)
-
-    //re-instantiation:
-
-    for(let i=0; i<parsedData.length; i++){
-       
-        new Type(parsedData[i].foodName, parsedData[i].foodType, parsedData[i].price)
-        
-    }
-
-    for(let i=0;i<allTypes.length; i++){
-        allTypes[i].displayType();
-    }
-}
-
-getData();
